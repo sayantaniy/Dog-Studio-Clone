@@ -24,7 +24,89 @@ main{
 
 section {
   min-height: 100vh;
-  border: 1px solid #ffffff;
   z-index: 2;
+  /* relative to its original position */
   position: relative;
+}
+
+#section1 nav {
+  padding-top: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section1 nav svg {
+  width: 6rem;
+  height: auto;
+  margin: 20px 40px;
+  fill: white;
+}
+
+#section1 nav #menu,#showreel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+#section1 nav #showreel svg {
+  width: 1.1rem;
+  height: auto;
+  margin-right: 0.5rem;
+  fill: rgb(234, 65, 65);
+}
+
+#section1 nav #showreel{
+  font-size: 0.8rem;
+}
+
+#middle,#bottom{
+  display: flex;
+}
+
+#middle #left,#right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  padding-top:5rem;
+  padding-right: 0%;
+  font-family: 'Instrument Serif', serif;
+  text-align: right;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+
+
+#bottom #right,#left{
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 2rem;
+  width: 50%;
+  font-family: 'Geist';
+  font-size: 1.5rem;
+  padding-left: 4rem ;
+  padding-right:12rem;
+  font-weight:200;
+}
+
+.first-line{
+  height: 1px;
+  background-color: rgba(255, 0, 0, 0.772);
+  position: absolute;
+  width: 35rem;
+  rotate: 45deg;
+  transform: translate(-17rem,-10rem);
+}
+
+.second-line{
+  height: 1px;
+  background-color: rgba(255, 0, 0, 0.772);
+  position: absolute;
+  width: 10rem;
+  transform: rotate(-45deg);
+  right: 17%;
+  top: 28%;
 }
