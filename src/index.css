@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: system-ui, sans-serif;
+  background-color: #1b1b1c;
+  color: #ffffff;
+}
+
+main{
+  position: relative;
+}
+
+section {
+  min-height: 100vh;
+  border: 1px solid #ffffff;
+  z-index: 2;
+  position: relative;
+}
