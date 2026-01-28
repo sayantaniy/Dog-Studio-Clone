@@ -66,22 +66,66 @@ const App = () => {
             </div>
           </nav>
 
-          <div id='middle'>
-            <div id="left">We<br/> Make <br/>Good <br/>Shit</div>
+          <div id="middle">
+            <div id="left">
+              We
+              <br /> Make <br />
+              Good <br />
+              Shit
+            </div>
             <div id="right"></div>
           </div>
 
           <div id="bottom">
             <div id="left"></div>
-            <div id="right">Dogstudio is a multidisciplinary
-creative studio at the intersection
-of art, design and technology.</div>
+            <div id="right">
+              Dogstudio is a multidisciplinary creative studio at the
+              intersection of art, design and technology.
+            </div>
           </div>
 
           <div className="first-line"></div>
-           <div className="second-line"></div>
+          <div className="second-line"></div>
         </section>
-        <section id="section2"></section>
+        <section id="section2">
+          <div className="titles">
+
+            <div id="title">
+              <small>2020 - ongoing</small>
+              <h1>Tomorrowland</h1>
+            </div>
+
+            <div id="title">
+              <small>2020 - ongoing</small>
+              <h1>Navy Pier</h1>
+            </div>
+
+            <div id="title">
+              <small>2020 - ongoing</small>
+              <h1>MSI Chicago</h1>
+            </div>
+
+            <div id="title">
+              <small>2020 - ongoing</small>
+              <h1>This Was Louie's Phone </h1>
+            </div>
+
+            <div id="title">
+              <small>2020 - ongoing</small>
+              <h1>KIKK Festival 2018</h1>
+            </div>
+
+            <div id="title">
+              <small>2020 - ongoing</small>
+              <h1>The Kennedy Center</h1>
+            </div>
+
+            <div id="title">
+              <small>2020 - ongoing</small>
+              <h1>Royal Opera Of Wallonia</h1>
+            </div>
+          </div>
+        </section>
         <section id="section3"></section>
       </main>
     </div>
