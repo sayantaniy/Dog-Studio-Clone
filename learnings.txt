@@ -1,0 +1,23 @@
+useTexture is a React Three Fiber (drei) hook used to load textures (images) and plug them straight into Three.js materials.
+
+🧱 Normal Map
+
+What it does:
+👉 Fakes bumps, dents, and details without adding geometry
+
+Think of it like optical illusion for light.
+
+Makes surface look detailed
+
+Does NOT change shape
+
+Uses purple/blue-looking images
+
+----
+
+🖼️ Map (aka Color / Albedo Map)
+
+What it does:
+👉 Gives the object its color + design
+
+Think of it like wrapping paper or skin on a 3D model.

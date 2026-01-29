@@ -8,28 +8,25 @@ const App = () => {
   return (
     <div>
       <main>
-
         <div className="images">
-          <img id='tomorrowland' src="/tomorrowland.png" alt="" />
-          <img id='navy-pier' src="/navy-pier.png" alt="" />
-          <img id='msi-chicago' src="/msi-chicago.png" alt="" />
-          <img id='phone' src="/phone.png" alt="" />
-          <img id='kikk' src="/kikk.png" alt="" />
-          <img id='kennedy' src="/kennedy.png" alt="" />
-          <img id='orw' src="/orw.png" alt="" />
+          <img id="tomorrowland" src="/tomorrowland.png" alt="" />
+          <img id="navy-pier" src="/navy-pier.png" alt="" />
+          <img id="msi-chicago" src="/msi-chicago.png" alt="" />
+          <img id="phone" src="/phone.png" alt="" />
+          <img id="kikk" src="/kikk.png" alt="" />
+          <img id="kennedy" src="/kennedy.png" alt="" />
+          <img id="orw" src="/orw.png" alt="" />
         </div>
 
         <Canvas
-        id="canvas-elem"
+          id="canvas-elem"
           style={{
-            
             height: "100vh",
             width: "100vw",
             position: "fixed",
             top: 0,
             left: 0,
             zIndex: "1",
-            
           }}
         >
           <Dog />
@@ -100,7 +97,6 @@ const App = () => {
         </section>
         <section id="section2">
           <div className="titles">
-
             <div img-title="tomorrowland" className="title">
               <small>2020 - ongoing</small>
               <h1>Tomorrowland</h1>

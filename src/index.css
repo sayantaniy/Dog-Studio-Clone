@@ -18,7 +18,7 @@ body {
   color: #ffffff;
 }
 
-main{
+main {
   position: relative;
 }
 
@@ -43,11 +43,11 @@ section {
   fill: white;
 }
 
-#section1 nav #menu,#showreel {
+#section1 nav #menu,
+#showreel {
   display: flex;
   align-items: center;
   cursor: pointer;
-  
 }
 
 #section1 nav #showreel svg {
@@ -57,51 +57,52 @@ section {
   fill: rgb(234, 65, 65);
 }
 
-#section1 nav #showreel{
+#section1 nav #showreel {
   font-size: 0.8rem;
 }
 
-#middle,#bottom{
+#middle,
+#bottom {
   display: flex;
 }
 
-#middle #left,#right{
+#middle #left,
+#right {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 50%;
-  padding-top:5rem;
+  padding-top: 5rem;
   padding-right: 0%;
-  font-family: 'Instrument Serif', serif;
+  font-family: "Instrument Serif", serif;
   text-align: right;
   font-size: 5rem;
   font-weight: bold;
 }
 
-
-
-#bottom #right,#left{
+#bottom #right,
+#left {
   justify-content: flex-start;
   text-align: left;
   padding-left: 2rem;
   width: 50%;
-  font-family: 'Geist';
+  font-family: "Geist";
   font-size: 1.5rem;
-  padding-left: 4rem ;
-  padding-right:12rem;
-  font-weight:200;
+  padding-left: 4rem;
+  padding-right: 12rem;
+  font-weight: 200;
 }
 
-.first-line{
+.first-line {
   height: 1px;
   background-color: rgba(255, 0, 0, 0.772);
   position: absolute;
   width: 35rem;
   rotate: 45deg;
-  transform: translate(-17rem,-10rem);
+  transform: translate(-17rem, -10rem);
 }
 
-.second-line{
+.second-line {
   height: 1px;
   background-color: rgba(255, 0, 0, 0.772);
   position: absolute;
@@ -110,37 +111,35 @@ section {
   right: 17%;
   top: 28%;
 }
-.titles{
+.titles {
   padding-left: 15rem;
   margin-top: 10rem;
-  font-family: 'Poppins', sans-serif;
-  
-  gap:3rem;
-  
+  font-family: "Poppins", sans-serif;
+
+  gap: 3rem;
 }
-.titles .title{
+.titles .title {
   display: flex;
-  gap:3rem;
+  gap: 3rem;
   margin-top: 3rem;
   opacity: 0.4;
 }
 
-.titles .title h1{
-  
+.titles .title h1 {
   font-size: 2.8rem;
   font-weight: 100;
   line-height: 2rem;
   margin-right: 5rem;
 }
 
-.titles .title small{
- text-transform: uppercase;
+.titles .title small {
+  text-transform: uppercase;
   font-size: 0.4rem;
   letter-spacing: 0.2rem;
   opacity: 0.37;
 }
 
-.title:hover{
+.title:hover {
   opacity: 1;
   cursor: pointer;
 }
@@ -155,22 +154,21 @@ section {
   background-image: url(/public/1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  content: '';
+  content: "";
   transition: all 0.3s linear;
 }
 /* “When the <main> element contains a .title inside #section2 that is currently being hovered, apply styles to the ::after pseudo-element of #canvas-elem.” */
 main:has(#section2 .title:hover) #canvas-elem::after {
-  
 }
 
-.images{
+.images {
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -182,33 +180,34 @@ main:has(#section2 .title:hover) #canvas-elem::after {
   }
 }
 
-main:has(#section2 .title[img-title='tomorrowland']:hover) .images #tomorrowland{ 
+main:has(#section2 .title[img-title="tomorrowland"]:hover)
+  .images
+  #tomorrowland {
   opacity: 1;
   background-color: rgb(40, 43, 77);
 }
 
-main:has(#section2 .title[img-title='kikk']:hover) .images #kikk{ 
+main:has(#section2 .title[img-title="kikk"]:hover) .images #kikk {
   opacity: 1;
   background-color: rgb(34, 36, 52);
 }
-main:has(#section2 .title[img-title='orw']:hover) .images #orw{ 
+main:has(#section2 .title[img-title="orw"]:hover) .images #orw {
   opacity: 1;
   background-color: rgb(162, 0, 0);
 }
-main:has(#section2 .title[img-title='msi-chicago']:hover) .images #msi-chicago{ 
+main:has(#section2 .title[img-title="msi-chicago"]:hover) .images #msi-chicago {
   opacity: 1;
   background-color: rgb(40, 43, 77);
 }
-main:has(#section2 .title[img-title='navy-pier']:hover) .images #navy-pier{ 
+main:has(#section2 .title[img-title="navy-pier"]:hover) .images #navy-pier {
   opacity: 1;
   background-color: rgb(40, 43, 77);
 }
-main:has(#section2 .title[img-title='phone']:hover) .images #phone{ 
+main:has(#section2 .title[img-title="phone"]:hover) .images #phone {
   opacity: 1;
   background-color: rgb(40, 43, 77);
 }
-main:has(#section2 .title[img-title='kennedy']:hover) .images #kennedy{
+main:has(#section2 .title[img-title="kennedy"]:hover) .images #kennedy {
   opacity: 1;
   background-color: rgb(7, 66, 64);
 }
-
